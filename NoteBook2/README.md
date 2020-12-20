@@ -703,7 +703,7 @@ public class MyDialog extends Dialog {
 
 <img src="https://i.loli.net/2020/10/06/PoJECKF1QmB9sgI.png" alt="email.png" style="zoom:50%;" />
 
-2.4：git add dest(你的项目文件名，这里是MyAppLication)
+2.4：git add dest(你的项目文件名，这里是NoteBook2)
 
 <img src="https://i.loli.net/2020/12/20/L125hfE4olGMpVj.png" alt="email.png" style="zoom:50%;" />
 
