@@ -39,9 +39,7 @@ public class MyHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
 //        初始化数据库的表结构，执行一条建表的SQL语句
-//        db.execSQL("CREATE TABLE notes(_id INTEGER PRIMARY KEY AUTOINCREMENT," +
-//                "title VARCHAR(40), content VARCHAR(40),crDate VARCHAR(20),mdDate VARCHAR(20))");
-        db.execSQL("create table note(_id integer primary key autoincrement, title char(40), content char(40), crDate char(20),mdDate char(20))");
+        db.execSQL("create table notes(_id integer primary key autoincrement, title char(40), content char(40), crDate char(20),mdDate char(20))");
     }
 
     //    当数据库的版本号增加时调用
@@ -137,9 +135,9 @@ public class Note {
 #### 2、MainActivity页面的实现
 
 2.1、MainActivity主要用于展示已有笔记。效果如下：
-没有添加笔记前：
+没有添加笔记前：<br/>
 <img src="https://i.loli.net/2020/12/20/gSbMnusH52dmEv8.jpg" alt="46F796FA09F86355F31401A8EC72FF6B.jpg" width="230" height="420" />
-添加笔记后：
+<br/>添加笔记后：
 <img src="https://i.loli.net/2020/12/20/oM8C4StFk2r7xu9.jpg" alt="EAC10314BCA607596DABF926A83C95A7.jpg" width="230" height="420"/>
 <br/>
 2.2、activity_main.xml布局设置（布局方式不再细说，主要多用相对布局和线性布局，附重要代码）：
