@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/edit_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edit_noteTitle"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:hint="@string/edit_noteTitle"
+            android:background="#D5ECD5"
+            android:textSize="23dp"
+            android:gravity="top"
+            android:maxLines="3"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@id/edit_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/edit_noteContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/edit_noteContent"
+            android:gravity="top"
+            android:textSize="21dp"
+            android:background="#DAE4F8"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/addSuccess"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="@string/addSuccess"
+        android:textSize="40dp"
+        android:textColor="#FDFDFD"
+        android:gravity="center"
+        android:background="@drawable/shape_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_alignBottom="@id/webMainLayout"
+         />
+</RelativeLayout>

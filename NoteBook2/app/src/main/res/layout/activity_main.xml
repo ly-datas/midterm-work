@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity"
+    android:id="@+id/webMainLayout">
+
+    <ListView
+        android:id="@+id/mylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#FDFDFD"
+        android:dividerHeight="5dp"/>
+
+    <Button
+        android:id="@+id/addNote"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="+"
+        android:textSize="33dp"
+        android:textColor="#FDFDFD"
+        android:gravity="center"
+        android:background="@drawable/shape_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_alignBottom="@id/webMainLayout"
+        tools:ignore="NotSibling" />
+
+    <Button
+        android:id="@+id/searchNote"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="@string/searchNote"
+        android:textColor="#FDFDFD"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:background="@drawable/shape_searchbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_alignBottom="@id/webMainLayout"
+        tools:ignore="NotSibling" />
+
+
+</RelativeLayout>

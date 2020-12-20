@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">NoteBook</string>
+    <string name="search_note">Search</string>
+    <string name="edit_note">Edit</string>
+
+    <!--MainActivity-->
+    <string name="addNote"></string>
+    <string name="searchNote">Look</string>
+
+    <!--EditActivity-->
+    <string name="edit_noteTitle">请输入标题……</string>
+    <string name="edit_noteContent">请输入内容……</string>
+    <string name="addSuccess">√</string>
+
+    <!--SeachNote-->
+    <string name="filter">Search note……</string>
+
+    <!--DeleteNote-->
+    <string name="makesure">您确定删除该笔记吗？</string>
+    <string name="mksrTitle">mksrTitle</string>
+    <string name="mksrMdDate">mksrMdDate</string>
+    <string name="mksrContent">mksrContent</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+
+</resources>
