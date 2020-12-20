@@ -542,6 +542,7 @@ public class MyDialog extends Dialog {
 先看效果：
 
 <img src="https://i.loli.net/2020/12/20/8rXeox43GRZd6tc.jpg" alt="66EED437493FC4D441EA702C828FD2A6.jpg" width="210" height="410" /><br/>
+<img src="https://i.loli.net/2020/12/20/vDaP13EQAn6rV9G.jpg"  width="210" height="410" /><br/>
 
 4.2、页面布局search_list.xml代码示例：
 
@@ -723,4 +724,4 @@ public class MyDialog extends Dialog {
 <img src="https://i.loli.net/2020/10/06/DN5gQUuB9MRjECf.png" alt="push.png" style="zoom:50%;" />
 
 3、项目上传成功后，github上创新页面，会看到仓库中多了前面上传好的项目。
-<img src="https://i.loli.net/2020/12/20/Od9Z2vJR6D1BUcC.png" alt="push.png" height="180" />
+<img src="https://i.loli.net/2020/12/20/Od9Z2vJR6D1BUcC.png" alt="push.png" height="120" />
