@@ -14,7 +14,7 @@ NoteBook设置三个基本页面：
 
 整体项目结构：
 
-<img src="https://i.loli.net/2020/12/20/5ORwcCBe8kIz2pM.png" alt="CSW84G1LTKJZK481BP3RU_2.png" width="230" height="410" />
+<img src="https://i.loli.net/2020/12/20/5ORwcCBe8kIz2pM.png" alt="CSW84G1LTKJZK481BP3RU_2.png" width="230" height="400" />
 
 接下来依次解析重点类、方法，布局文件。
 
@@ -136,9 +136,9 @@ public class Note {
 
 2.1、MainActivity主要用于展示已有笔记。效果如下：
 没有添加笔记前：<br/>
-<img src="https://i.loli.net/2020/12/20/gSbMnusH52dmEv8.jpg" alt="46F796FA09F86355F31401A8EC72FF6B.jpg" width="230" height="420" />
+<img src="https://i.loli.net/2020/12/20/gSbMnusH52dmEv8.jpg" alt="46F796FA09F86355F31401A8EC72FF6B.jpg" width="230" height="410" />
 <br/>添加笔记后：
-<img src="https://i.loli.net/2020/12/20/oM8C4StFk2r7xu9.jpg" alt="EAC10314BCA607596DABF926A83C95A7.jpg" width="230" height="420"/>
+<img src="https://i.loli.net/2020/12/20/oM8C4StFk2r7xu9.jpg" alt="EAC10314BCA607596DABF926A83C95A7.jpg" width="230" height="410"/>
 <br/>
 2.2、activity_main.xml布局设置（布局方式不再细说，主要多用相对布局和线性布局，附重要代码）：
 
@@ -464,9 +464,9 @@ MyDialog继承**Dialog**类，主要用于在用户选择要删除某一条note�
 
 效果如图示：
 
-<img src="https://i.loli.net/2020/12/20/N4Ay82zkYEM65Iu.jpg" alt="23C0CA16602C27464DE4DB7E29EF9AD5.jpg" width="210" height="420" />
+<img src="https://i.loli.net/2020/12/20/N4Ay82zkYEM65Iu.jpg" alt="23C0CA16602C27464DE4DB7E29EF9AD5.jpg" width="210" height="410" />
 
-<img src="https://i.loli.net/2020/12/20/bFxwH83NemI45R6.jpg" alt="A1B972A839B4A2E9905320D33933073E.jpg" width="210" height="420"/>
+<img src="https://i.loli.net/2020/12/20/bFxwH83NemI45R6.jpg" alt="A1B972A839B4A2E9905320D33933073E.jpg" width="210" height="410"/>
 <br/>
 
 MyDialog主要java代码实现：
@@ -541,7 +541,7 @@ public class MyDialog extends Dialog {
 
 先看效果：
 
-<img src="https://i.loli.net/2020/12/20/8rXeox43GRZd6tc.jpg" alt="66EED437493FC4D441EA702C828FD2A6.jpg" width="210" height="420" /><br/>
+<img src="https://i.loli.net/2020/12/20/8rXeox43GRZd6tc.jpg" alt="66EED437493FC4D441EA702C828FD2A6.jpg" width="210" height="410" /><br/>
 
 4.2、页面布局search_list.xml代码示例：
 
@@ -723,4 +723,4 @@ public class MyDialog extends Dialog {
 <img src="https://i.loli.net/2020/10/06/DN5gQUuB9MRjECf.png" alt="push.png" style="zoom:50%;" />
 
 3、项目上传成功后，github上创新页面，会看到仓库中多了前面上传好的项目。
-<img src="https://i.loli.net/2020/12/20/Od9Z2vJR6D1BUcC.png" alt="push.png" style="zoom:50%;" />
+<img src="https://i.loli.net/2020/12/20/Od9Z2vJR6D1BUcC.png" alt="push.png" height="180" />
